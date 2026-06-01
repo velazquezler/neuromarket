@@ -1,0 +1,1278 @@
+.refactor-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 40px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.refactor-dashboard .app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 68px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #f8f9fa;
+}
+
+.refactor-dashboard .header {
+  display: flex;
+  flex-direction: column;
+  width: 1227px;
+  height: 81px;
+  align-items: flex-start;
+  padding: 0px 13.5px 1px;
+  position: relative;
+  background-color: #ffffff;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-left-style: none;
+  border-color: #e5e7eb;
+}
+
+.refactor-dashboard .container {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  align-items: flex-start;
+  padding: 0px 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.refactor-dashboard .div {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 80px;
+}
+
+.refactor-dashboard .logo-nm-letras-svg {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 40px;
+  align-items: flex-start;
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+
+.refactor-dashboard .icon {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 40.39px;
+}
+
+.refactor-dashboard .group {
+  position: relative;
+  width: 73.41%;
+  height: 53.34%;
+  top: 28.82%;
+  left: 22.92%;
+}
+
+.refactor-dashboard .vector {
+  position: absolute;
+  width: 99.91%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.refactor-dashboard .img {
+  position: absolute;
+  width: 100%;
+  height: 29.01%;
+  top: 70.99%;
+  left: 0;
+}
+
+.refactor-dashboard .container-2 {
+  display: flex;
+  width: 326px;
+  height: 48px;
+  align-items: center;
+  gap: 12px;
+  position: absolute;
+  top: 16px;
+  left: 826px;
+}
+
+.refactor-dashboard .text {
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  height: 20px;
+}
+
+.refactor-dashboard .text-wrapper {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #364153;
+  font-size: 14px;
+  letter-spacing: -0.15px;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.refactor-dashboard .image-user-avatar-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 48px;
+  height: 48px;
+  align-items: flex-start;
+  position: relative;
+  background-color: #2b7fff;
+  border-radius: 16777200px;
+  overflow: hidden;
+}
+
+.refactor-dashboard .image-user-avatar {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 48px;
+  background-image: url(./img/image-user-avatar.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.refactor-dashboard .section {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  width: 1000px;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #1e1e1ed9;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow:
+    0px 0px 0px 1px #ffffff1a,
+    0px 30px 60px #00000099;
+}
+
+.refactor-dashboard .background {
+  display: flex;
+  height: 38px;
+  align-items: center;
+  padding: 0px 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #2d2d34;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #0000004c;
+}
+
+.refactor-dashboard .container-3 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.refactor-dashboard .background-border {
+  position: relative;
+  width: 12px;
+  height: 12px;
+  background-color: #ff5f56;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #e0443e;
+}
+
+.refactor-dashboard .background-border-2 {
+  background-color: #ffbd2e;
+  border-color: #dea123;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  border: 1px solid;
+}
+
+.refactor-dashboard .background-border-3 {
+  background-color: #27c93f;
+  border-color: #1aab29;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  border: 1px solid;
+}
+
+.refactor-dashboard .div-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 3.95%;
+  align-items: flex-start;
+  position: absolute;
+  top: 11px;
+  left: 48.02%;
+}
+
+.refactor-dashboard .text-2 {
+  margin-top: -1px;
+  font-family: "SF Pro Display-Medium", Helvetica;
+  font-weight: 500;
+  color: #b3b3b3;
+  font-size: 13px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.refactor-dashboard .background-2 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: #000000;
+  aspect-ratio: 1.78;
+}
+
+.refactor-dashboard .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #1111112b;
+  opacity: 0.75;
+}
+
+.refactor-dashboard .gradient {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.25) 50%,
+    rgba(0, 0, 0, 0) 50%
+  );
+  opacity: 0.3;
+}
+
+.refactor-dashboard .container-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.refactor-dashboard .button-wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.refactor-dashboard .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 12px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #000000b2;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #ffffff33;
+}
+
+.refactor-dashboard .text-3 {
+  justify-content: center;
+  font-family: "Menlo-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.refactor-dashboard .container-4 {
+  display: flex;
+  flex-direction: column;
+  width: 1152px;
+  align-items: center;
+  gap: 16px;
+  padding: 0px 221px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.refactor-dashboard .p {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Inter-Bold", Helvetica;
+  font-weight: 700;
+  color: #0f172a;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: -0.35px;
+  line-height: 54px;
+}
+
+.refactor-dashboard .paragraph {
+  position: relative;
+  width: 672px;
+  height: 24px;
+}
+
+.refactor-dashboard .elige-a-tu-pr-ximo {
+  position: absolute;
+  top: 0;
+  left: 124px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #475569;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.31px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.refactor-dashboard .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.refactor-dashboard .agent-card {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 488px;
+  align-items: flex-start;
+  padding: 1px;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid;
+  border-color: #e5e7eb;
+  box-shadow:
+    0px 1px 2px -1px #0000001a,
+    0px 1px 3px #0000001a;
+}
+
+.refactor-dashboard .heading-wrapper {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 200px;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
+
+.refactor-dashboard .heading {
+  position: relative;
+  top: 152px;
+  left: 20px;
+  width: 318px;
+  display: flex;
+}
+
+.refactor-dashboard .text-wrapper-2 {
+  width: 145px;
+  height: 32px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.07px;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.refactor-dashboard .container-5 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 286px;
+}
+
+.refactor-dashboard .container-6 {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  height: 115px;
+  align-items: flex-start;
+  gap: 8px;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.refactor-dashboard .paragraph-2 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 16px;
+}
+
+.refactor-dashboard .text-wrapper-3 {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  font-family: "Inter-Light", Helvetica;
+  font-weight: 300;
+  color: #155dfc;
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.refactor-dashboard .paragraph-3 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 91px;
+  overflow: hidden;
+}
+
+.refactor-dashboard .text-wrapper-4 {
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 310px;
+  font-family: "Inter-Regular", Helvetica;
+  font-weight: 400;
+  color: #4a5565;
+  font-size: 14px;
+  letter-spacing: -0.15px;
+  line-height: 22.8px;
+}
+
+.refactor-dashboard .icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  height: 24px;
+  align-items: flex-start;
+  position: absolute;
+  top: 155px;
+  left: 24px;
+}
+
+.refactor-dashboard .vector-wrapper {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 24px;
+}
+
+.refactor-dashboard .vector-2 {
+  position: absolute;
+  width: 99.79%;
+  height: 99.79%;
+  top: 0;
+  left: 0;
+}
+
+.refactor-dashboard .container-7 {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  height: 24px;
+  align-items: flex-start;
+  position: absolute;
+  top: 155px;
+  left: 52px;
+}
+
+.refactor-dashboard .container-8 {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  height: 24px;
+  align-items: flex-start;
+  position: absolute;
+  top: 155px;
+  left: 80px;
+}
+
+.refactor-dashboard .container-9 {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  height: 24px;
+  align-items: flex-start;
+  position: absolute;
+  top: 155px;
+  left: 108px;
+}
+
+.refactor-dashboard .container-10 {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  height: 24px;
+  align-items: flex-start;
+  position: absolute;
+  top: 155px;
+  left: 136px;
+}
+
+.refactor-dashboard .vector-3 {
+  position: absolute;
+  width: 97.36%;
+  height: 99.79%;
+  top: 0;
+  left: 2.64%;
+}
+
+.refactor-dashboard .container-11 {
+  display: flex;
+  flex-direction: column;
+  width: 358px;
+  height: 59px;
+  align-items: flex-start;
+  padding: 17px 24px 0px;
+  position: absolute;
+  top: 203px;
+  left: 0;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: #f3f4f6;
+}
+
+.refactor-dashboard .container-12 {
+  display: flex;
+  height: 42px;
+  align-items: flex-start;
+  gap: 2px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.refactor-dashboard .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 102px;
+  height: 42px;
+  display: flex;
+  background-color: #eff6ff4c;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-color: #155dfc;
+}
+
+.refactor-dashboard .text-wrapper-5 {
+  margin-top: 13px;
+  width: 57px;
+  height: 16px;
+  margin-left: 23.1px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #155dfc;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.refactor-dashboard .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 104px;
+  width: 102px;
+  height: 42px;
+  display: flex;
+}
+
+.refactor-dashboard .text-wrapper-6 {
+  margin-top: 14px;
+  width: 89px;
+  height: 16px;
+  margin-left: 6.8px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #99a1af;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.refactor-dashboard .button-4 {
+  all: unset;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 208px;
+  width: 102px;
+  height: 42px;
+  display: flex;
+}
+
+.refactor-dashboard .text-wrapper-7 {
+  margin-top: 14px;
+  width: 33px;
+  height: 16px;
+  margin-left: 34.6px;
+  font-family: "Inter-Medium", Helvetica;
+  font-weight: 500;
+  color: #99a1af;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 16px;
+  white-space: nowrap;
+}
+
+.refactor-dashboard .text-wrapper-8 {
+  width: 111px;
+  height: 32px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.07px;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.refactor-dashboard .container-13 {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 263.25px;
+}
+
+.refactor-dashboard .container-14 {
+  display: flex;
+  flex-direction: column;
+  width: 310px;
+  height: 92px;
+  align-items: flex-start;
+  gap: 8px;
+  position: absolute;
+  top: 24px;
+  left: 24px;
+}
+
+.refactor-dashboard .agente-experto-en-wrapper {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 68.25px;
+  overflow: hidden;
+}
+
+.refactor-dashboard .container-15 {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  height: 24px;
+  align-items: flex-start;
+  position: absolute;
+  top: 132px;
+  left: 24px;
+}
+
+.refactor-dashboard .container-16 {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  height: 24px;
+  align-items: flex-start;
+  position: absolute;
+  top: 132px;
+  left: 52px;
+}
+
+.refactor-dashboard .container-17 {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  height: 24px;
+  align-items: flex-start;
+  position: absolute;
+  top: 132px;
+  left: 80px;
+}
+
+.refactor-dashboard .container-18 {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  height: 24px;
+  align-items: flex-start;
+  position: absolute;
+  top: 132px;
+  left: 108px;
+}
+
+.refactor-dashboard .container-19 {
+  display: flex;
+  flex-direction: column;
+  width: 24px;
+  height: 24px;
+  align-items: flex-start;
+  position: absolute;
+  top: 132px;
+  left: 136px;
+}
+
+.refactor-dashboard .container-20 {
+  display: flex;
+  flex-direction: column;
+  width: 358px;
+  height: 59px;
+  align-items: flex-start;
+  padding: 17px 24px 0px;
+  position: absolute;
+  top: 180px;
+  left: 0;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-color: #f3f4f6;
+}
+
+.refactor-dashboard .text-wrapper-9 {
+  width: 89px;
+  height: 32px;
+  font-family: "Inter-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0.07px;
+  line-height: 32px;
+  white-space: nowrap;
+}
+/* Inject the original CSS code above */
+
+.refactor-dashboard .button,
+.refactor-dashboard .button-2,
+.refactor-dashboard .button-3,
+.refactor-dashboard .button-4 {
+  cursor: pointer;
+}
+
+.refactor-dashboard .button-2:focus-visible,
+.refactor-dashboard .button-3:focus-visible,
+.refactor-dashboard .button-4:focus-visible {
+  position: absolute;
+  z-index: 1;
+}
+
+.refactor-dashboard main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 68px;
+  width: 100%;
+}
+
+@media (max-width: 1227px) {
+  .refactor-dashboard .header {
+    width: 100%;
+  }
+
+  .refactor-dashboard .container-2 {
+    left: auto;
+    right: 24px;
+  }
+
+  .refactor-dashboard .container-4 {
+    width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .refactor-dashboard .frame {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .refactor-dashboard .section {
+    width: calc(100% - 48px);
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 767px) {
+  .refactor-dashboard .container-2 {
+    width: auto;
+    max-width: calc(100% - 120px);
+  }
+
+  .refactor-dashboard .text-wrapper {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .refactor-dashboard .p {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .refactor-dashboard .paragraph {
+    width: 100%;
+    height: auto;
+  }
+
+  .refactor-dashboard .elige-a-tu-pr-ximo {
+    position: static;
+    white-space: normal;
+  }
+
+  .refactor-dashboard .agent-card {
+    width: min(360px, 100%);
+  }
+}
+
+@media (max-width: 479px) {
+  .refactor-dashboard .container {
+    padding: 0 16px;
+  }
+
+  .refactor-dashboard .container-2 {
+    gap: 8px;
+    right: 16px;
+    max-width: calc(100% - 96px);
+  }
+
+  .refactor-dashboard .text {
+    display: none;
+  }
+
+  .refactor-dashboard .section {
+    width: calc(100% - 32px);
+  }
+
+  .refactor-dashboard .container-4,
+  .refactor-dashboard .frame {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .refactor-dashboard .p {
+    font-size: 28px;
+    line-height: 38px;
+  }
+}
+
+/* ==========================================================================
+   PREMIUM LIGHT MODE & MINIMAL SAAS COMPONENT OVERRIDES
+   ========================================================================== */
+
+/* 1. Global Canvas & Background Reset */
+.refactor-dashboard {
+  background-color: transparent !important;
+}
+.refactor-dashboard .app {
+  background-color: transparent !important;
+}
+
+/* 2. Top Navigation Bar styling */
+.refactor-dashboard .header {
+  background-color: var(--surface-card) !important;
+  border-color: #E2E8F0 !important;
+}
+.refactor-dashboard .text-wrapper {
+  color: var(--text-secondary) !important;
+}
+
+/* 3. Section (Olivia Preview Card Window) refactoring */
+.refactor-dashboard .section {
+  background-color: var(--surface-card) !important;
+  border: 1px solid #E2E8F0 !important;
+  box-shadow: 0 12px 40px -12px rgba(0, 0, 0, 0.05) !important;
+}
+.refactor-dashboard .background {
+  background-color: #F8FAFC !important;
+  border-color: #E2E8F0 !important;
+}
+.refactor-dashboard .text-2 {
+  color: var(--text-secondary) !important;
+  letter-spacing: 0.05em;
+}
+.refactor-dashboard .background-2 {
+  background-color: #F8FAFC !important;
+  background-image: radial-gradient(#E2E8F0 1px, transparent 1px) !important;
+  background-size: 16px 16px !important;
+}
+.refactor-dashboard .overlay {
+  background-color: transparent !important;
+  opacity: 0 !important;
+}
+.refactor-dashboard .gradient {
+  background: transparent !important;
+  opacity: 0 !important;
+}
+
+/* Glassmorphic Audio Action Button */
+.refactor-dashboard .button {
+  all: unset;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px !important;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  backdrop-filter: blur(8px) !important;
+  border-radius: 6px !important;
+  border: 1px solid rgba(226, 232, 240, 0.8) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04) !important;
+  cursor: pointer;
+  transition: all 200ms ease-out !important;
+}
+.refactor-dashboard .button:hover {
+  background-color: rgba(255, 255, 255, 1) !important;
+  border-color: var(--brand-primary) !important;
+  transform: translateY(-1px) !important;
+}
+.refactor-dashboard .text-3 {
+  font-family: var(--button-font-family) !important;
+  color: var(--text-primary) !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.5px !important;
+}
+
+/* 4. Section headings styling overrides */
+.refactor-dashboard .p {
+  color: var(--text-primary) !important;
+}
+.refactor-dashboard .elige-a-tu-pr-ximo {
+  color: var(--text-secondary) !important;
+}
+
+/* 5. Agent Cards design refactoring */
+.refactor-dashboard .agent-card {
+  background-color: var(--surface-card) !important;
+  border: 1px solid #E2E8F0 !important;
+  border-radius: 16px !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.02) !important;
+  transform: perspective(1000px) rotateY(var(--r-x, 0deg)) rotateX(var(--r-y, 0deg)) translateY(var(--translate-y, 0px)) !important;
+  transition: transform var(--duration, 300ms) ease-out, box-shadow var(--duration, 300ms) ease-out, border-color var(--duration, 300ms) ease-out !important;
+  transform-style: preserve-3d !important;
+}
+
+/* Domi watermark background vector */
+.refactor-dashboard .agent-card .domi-bg {
+  position: absolute !important;
+  top: 12px !important;
+  right: 12px !important;
+  width: 170px !important;
+  height: 170px !important;
+  background-image: url("img/domi.svg") !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  opacity: 0.12 !important; /* Premium subtle visibility */
+  filter: blur(1.5px) !important; /* Soft blur */
+  mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 80%) !important;
+  -webkit-mask-image: radial-gradient(circle, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 80%) !important; /* Soft masking vignette to eliminate hard edges */
+  pointer-events: none !important;
+  z-index: 1 !important;
+}
+
+/* Proximity Backlight Glow Pseudo-Element */
+.refactor-dashboard .agent-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(at bottom right, rgba(14, 165, 233, 0.04), transparent 70%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 200ms ease-out;
+  z-index: 2;
+}
+
+/* Ensure all regular children (text content, titles, buttons) sit above background watermark and glow */
+.refactor-dashboard .agent-card > *:not(.domi-bg):not(.card-glare):not(.card-holo) {
+  position: relative;
+  z-index: 3;
+}
+
+/* Card Interactive Hover States */
+.refactor-dashboard .agent-card:hover {
+  --translate-y: -4px;
+  box-shadow: 0 12px 30px -10px rgba(14, 165, 233, 0.08) !important;
+  border-color: var(--brand-primary) !important;
+}
+.refactor-dashboard .agent-card:hover::before {
+  opacity: 1;
+}
+
+/* Card Holographic reflection - Subtle Blue/Cyan light sheen */
+.refactor-dashboard .agent-card .card-holo {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: inherit !important;
+  pointer-events: none !important;
+  z-index: 4 !important;
+  opacity: var(--holo-opacity, 0) !important;
+  background: radial-gradient(
+    circle farthest-corner at var(--m-x, 50%) var(--m-y, 50%),
+    rgba(14, 165, 233, 0.08) 0%,   /* Cyber cyan */
+    rgba(2, 132, 199, 0.06) 35%,   /* Slate blue */
+    rgba(56, 189, 248, 0.03) 70%,  /* Cyan accent */
+    transparent 100%
+  ) !important;
+  mix-blend-mode: color-dodge !important; /* Light-mode friendly reflection blending */
+  transition: opacity 300ms ease !important;
+}
+
+.refactor-dashboard .agent-card:hover .card-holo {
+  --holo-opacity: 1;
+}
+
+/* Card Glare overlay style - Soft Light Mode reflection */
+.refactor-dashboard .agent-card .card-glare {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 5;
+  opacity: var(--glare-opacity, 0);
+  background: radial-gradient(
+    circle farthest-corner at var(--m-x, 50%) var(--m-y, 50%),
+    rgba(255, 255, 255, 0.35) 0%,
+    rgba(255, 255, 255, 0.15) 30%,
+    rgba(255, 255, 255, 0) 70%
+  ) !important;
+  mix-blend-mode: overlay !important;
+  transition: opacity 300ms ease !important;
+}
+.refactor-dashboard .agent-card:hover .card-glare {
+  --glare-opacity: 1;
+}
+
+/* Card titles overrides */
+.refactor-dashboard .heading-wrapper {
+  background: transparent !important;
+}
+.refactor-dashboard .heading {
+  left: 24px !important;
+  width: 312px !important;
+}
+.refactor-dashboard .text-wrapper-2,
+.refactor-dashboard .text-wrapper-8,
+.refactor-dashboard .text-wrapper-9 {
+  color: var(--text-primary) !important;
+  font-family: var(--heading-h4-font-family) !important;
+  letter-spacing: -0.3px !important;
+}
+
+/* Description content styling */
+.refactor-dashboard .text-wrapper-3 {
+  color: var(--brand-primary) !important;
+  font-family: var(--label-sm-font-family) !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.8px !important;
+}
+.refactor-dashboard .text-wrapper-4 {
+  color: var(--text-secondary) !important;
+  font-family: var(--body-sm-font-family) !important;
+  line-height: 1.6 !important;
+}
+
+/* Rating Star Telemetry - Precise emerald green filter */
+.refactor-dashboard .agent-card img[src*="vector"],
+.refactor-dashboard .agent-card img[src*="image"] {
+  filter: brightness(0) saturate(100%) invert(53%) sepia(87%) saturate(442%) hue-rotate(114deg) brightness(91%) contrast(92%) !important;
+}
+
+/* Tab and CTA Containers horizontal alignment overrides */
+.refactor-dashboard .container-11,
+.refactor-dashboard .container-20 {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 358px !important;
+  height: 59px !important;
+  padding: 24px 24px 0px !important;
+  position: absolute !important;
+  left: 0 !important;
+  border-top: 1px solid #E2E8F0 !important;
+  box-sizing: border-box !important;
+}
+
+.refactor-dashboard .container-11 {
+  top: 203px !important;
+}
+
+.refactor-dashboard .container-20 {
+  top: 180px !important;
+}
+
+/* Segmented Control tab switcher styling */
+.refactor-dashboard .container-12 {
+  display: flex !important;
+  background-color: #F1F5F9 !important; /* Segmented track color */
+  border-radius: 8px !important;
+  padding: 3px !important;
+  gap: 2px !important;
+  height: 38px !important;
+  width: 200px !important;
+  position: relative !important;
+  box-sizing: border-box !important;
+}
+
+.refactor-dashboard .container-12 .button-2,
+.refactor-dashboard .container-12 .button-3 {
+  position: static !important;
+  flex: 1 !important;
+  height: 100% !important;
+  width: auto !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  border-radius: 6px !important;
+  border: none !important;
+  background-color: transparent !important;
+  cursor: pointer !important;
+  padding: 0 !important;
+  transition: background-color 200ms ease, box-shadow 200ms ease !important;
+}
+
+/* Active segmented control tab item selection */
+.refactor-dashboard .container-12 button[aria-selected="true"] {
+  background-color: #FFFFFF !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* Tab button label text overrides */
+.refactor-dashboard .text-wrapper-5,
+.refactor-dashboard .text-wrapper-6 {
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  font-family: "Inter-Medium", Helvetica !important;
+  font-size: 10.5px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+  white-space: nowrap !important;
+}
+
+.refactor-dashboard .container-12 button[aria-selected="true"] .text-wrapper-5,
+.refactor-dashboard .container-12 button[aria-selected="true"] .text-wrapper-6 {
+  color: var(--text-primary) !important;
+  font-weight: 600 !important;
+}
+
+.refactor-dashboard .container-12 button[aria-selected="false"] .text-wrapper-5,
+.refactor-dashboard .container-12 button[aria-selected="false"] .text-wrapper-6 {
+  color: var(--text-secondary) !important;
+  font-weight: 500 !important;
+  opacity: 0.65 !important;
+}
+
+/* Standalone Primary Navigation CTA (CHAT link) */
+.refactor-dashboard .chat-cta {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 4px !important;
+  background-color: var(--brand-primary) !important; /* Cyber cyan accent fill */
+  color: #FFFFFF !important;
+  padding: 8px 14px !important;
+  border-radius: 8px !important;
+  font-family: "Inter-SemiBold", Helvetica !important;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  text-decoration: none !important;
+  transition: background-color 200ms ease, transform 200ms ease, box-shadow 200ms ease !important;
+  box-shadow: 0 2px 8px rgba(14, 165, 233, 0.16) !important;
+  height: 32px !important;
+  width: 82px !important;
+  box-sizing: border-box !important;
+  cursor: pointer !important;
+}
+
+.refactor-dashboard .chat-cta:hover {
+  background-color: #0284c7 !important; /* Snappy active hover state */
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.24) !important;
+}
+
+.refactor-dashboard .chat-cta span {
+  display: inline-block !important;
+  line-height: 1 !important;
+}
+
+.refactor-dashboard .chat-cta svg {
+  display: inline-block !important;
+  flex-shrink: 0 !important;
+}
+
+
