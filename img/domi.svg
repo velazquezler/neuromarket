@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Background radial tech glow -->
+  <circle cx="100" cy="100" r="80" fill="url(#glowGrad)" opacity="0.25"/>
+  
+  <!-- Robot main body/head container -->
+  <rect x="45" y="55" width="110" height="90" rx="36" stroke="url(#strokeGrad)" stroke-width="4" fill="#FFFFFF"/>
+  
+  <!-- Sleek cyber faceplate -->
+  <rect x="60" y="70" width="80" height="50" rx="18" fill="#0F172A"/>
+  
+  <!-- Holographic AI Eyes -->
+  <circle cx="82" cy="95" r="6" fill="#0EA5E9" filter="url(#eyeGlow)"/>
+  <circle cx="118" cy="95" r="6" fill="#0EA5E9" filter="url(#eyeGlow)"/>
+  
+  <!-- Cute digital smile -->
+  <path d="M92 110 Q100 115 108 110" stroke="#0EA5E9" stroke-width="3" stroke-linecap="round" fill="none"/>
+  
+  <!-- Tech details (antenna + receiver) -->
+  <path d="M100 55 V35" stroke="#0EA5E9" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="100" cy="30" r="8" fill="#10B981"/>
+  
+  <!-- Subtle lateral tech bolts -->
+  <rect x="37" y="90" width="8" height="20" rx="4" fill="#CBD5E1"/>
+  <rect x="155" y="90" width="8" height="20" rx="4" fill="#CBD5E1"/>
+  
+  <defs>
+    <!-- Cyan to violet background glow -->
+    <radialGradient id="glowGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.6"/>
+      <stop offset="60%" stop-color="#8B5CF6" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Linear metallic stroke border gradient -->
+    <linearGradient id="strokeGrad" x1="45" y1="55" x2="155" y2="145" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    
+    <!-- Neon eyes filter glow -->
+    <filter id="eyeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>
