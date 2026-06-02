@@ -8,10 +8,51 @@ body {
   margin: 0px;
   height: 100%;
   background-color: var(--surface-canvas);
-  background-image: radial-gradient(circle, #E2E8F0 1px, transparent 1px);
-  background-size: 24px 24px;
-  background-repeat: repeat;
-  background-attachment: fixed;
+}
+
+/* Aurora Background Wrapper */
+.aurora-bg-container {
+  position: fixed !important;
+  inset: 0 !important;
+  height: 100vh !important;
+  overflow: hidden !important;
+  z-index: 1 !important;
+  pointer-events: none !important;
+  background-color: var(--surface-canvas);
+}
+
+/* Gradient Fluid Layer */
+.aurora-fluid-layer {
+  position: absolute !important;
+  inset: -10px !important;
+  opacity: 0.35 !important;
+  filter: blur(12px) invert(1) !important;
+  mix-blend-mode: difference !important;
+  mask-image: radial-gradient(ellipse at 100% 0%, black 10%, transparent 70%) !important;
+  -webkit-mask-image: radial-gradient(ellipse at 100% 0%, black 10%, transparent 70%) !important;
+  --aurora: repeating-linear-gradient(100deg, #3b82f6 10%, #a5b4fc 15%, #93c5fd 20%, #ddd6fe 25%, #60a5fa 30%);
+  --white-gradient: repeating-linear-gradient(100deg, #fff 0%, #fff 7%, transparent 10%, transparent 12%, #fff 16%);
+}
+
+@keyframes aurora-flow {
+  0% {
+    background-position: 50% 50%, 50% 50%;
+  }
+  50% {
+    background-position: 100% 100%, 100% 100%;
+  }
+  100% {
+    background-position: 50% 50%, 50% 50%;
+  }
+}
+
+.aurora-fluid-layer::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: var(--white-gradient), var(--aurora);
+  background-size: 200%, 100%;
+  animation: aurora-flow 60s linear infinite; /* Slow, elegant structural movement */
 }
 /* a blue color as a generic focus style */
 button:focus-visible {

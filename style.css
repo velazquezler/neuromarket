@@ -22,7 +22,10 @@
 .refactor-dashboard .header {
   display: flex;
   flex-direction: column;
-  width: 1227px;
+  width: 100% !important;
+  max-width: 100% !important;
+  left: 0 !important;
+  right: 0 !important;
   height: 81px;
   align-items: flex-start;
   padding: 0px 13.5px 1px;
@@ -919,37 +922,55 @@
 /* 1. Global Canvas & Background Reset */
 .refactor-dashboard {
   background-color: transparent !important;
+  position: relative !important;
+  z-index: 10 !important;
+  width: 100% !important;
 }
 .refactor-dashboard .app {
   background-color: transparent !important;
+  position: relative !important;
+  z-index: 10 !important;
+  width: 100% !important;
 }
 
 /* 2. Top Navigation Bar styling */
 .refactor-dashboard .header {
   background-color: var(--surface-card) !important;
   border-color: #E2E8F0 !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  left: 0 !important;
+  right: 0 !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
+.refactor-dashboard .container-2 {
+  left: auto !important;
+  right: 24px !important;
 }
 .refactor-dashboard .text-wrapper {
   color: var(--text-secondary) !important;
 }
 
-/* 3. Section (Olivia Preview Card Window) refactoring */
+/* 3. Section (Olivia Preview Card Window) forced to Obsidian Dark Mode */
 .refactor-dashboard .section {
-  background-color: var(--surface-card) !important;
-  border: 1px solid #E2E8F0 !important;
-  box-shadow: 0 12px 40px -12px rgba(0, 0, 0, 0.05) !important;
+  background-color: #0F172A !important; /* Deep technical obsidian dark */
+  border: 1px solid #1E293B !important;  /* Bounding separator line */
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.3) !important;
+  position: relative !important;
+  z-index: 10 !important;
 }
 .refactor-dashboard .background {
-  background-color: #F8FAFC !important;
-  border-color: #E2E8F0 !important;
+  background-color: #090E1A !important; /* Obsidian header */
+  border-color: #1E293B !important;
 }
 .refactor-dashboard .text-2 {
-  color: var(--text-secondary) !important;
+  color: #F8FAFC !important; /* Crisp code-white */
   letter-spacing: 0.05em;
 }
 .refactor-dashboard .background-2 {
-  background-color: #F8FAFC !important;
-  background-image: radial-gradient(#E2E8F0 1px, transparent 1px) !important;
+  background-color: #090E1A !important; /* Obsidian body view */
+  background-image: radial-gradient(rgba(14, 165, 233, 0.1) 1px, transparent 1px) !important; /* Translucent cyan micro-dots grid */
   background-size: 16px 16px !important;
 }
 .refactor-dashboard .overlay {
@@ -961,7 +982,7 @@
   opacity: 0 !important;
 }
 
-/* Glassmorphic Audio Action Button */
+/* Obsidian Audio Action Button */
 .refactor-dashboard .button {
   all: unset;
   box-sizing: border-box;
@@ -972,24 +993,27 @@
   padding: 8px 16px !important;
   position: relative;
   flex: 0 0 auto;
-  background-color: rgba(255, 255, 255, 0.8) !important;
-  backdrop-filter: blur(8px) !important;
+  background-color: #1E293B !important; /* Deep steel background */
   border-radius: 6px !important;
-  border: 1px solid rgba(226, 232, 240, 0.8) !important;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04) !important;
-  cursor: pointer;
+  border: 1px solid #334155 !important; /* Thin border edges */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  cursor: pointer !important;
   transition: all 200ms ease-out !important;
 }
 .refactor-dashboard .button:hover {
-  background-color: rgba(255, 255, 255, 1) !important;
+  background-color: #334155 !important;
   border-color: var(--brand-primary) !important;
   transform: translateY(-1px) !important;
 }
+.refactor-dashboard .button:hover .text-3 {
+  color: var(--brand-primary) !important; /* Bright technical cyan accent on hover */
+}
 .refactor-dashboard .text-3 {
   font-family: var(--button-font-family) !important;
-  color: var(--text-primary) !important;
+  color: #FFFFFF !important; /* Crisp high-contrast white */
   font-weight: 500 !important;
   letter-spacing: 0.5px !important;
+  transition: color 200ms ease !important;
 }
 
 /* 4. Section headings styling overrides */
@@ -1009,6 +1033,8 @@
   transform: perspective(1000px) rotateY(var(--r-x, 0deg)) rotateX(var(--r-y, 0deg)) translateY(var(--translate-y, 0px)) !important;
   transition: transform var(--duration, 300ms) ease-out, box-shadow var(--duration, 300ms) ease-out, border-color var(--duration, 300ms) ease-out !important;
   transform-style: preserve-3d !important;
+  --step: 3%;
+  --bg-y: var(--m-y, 50%);
 }
 
 /* Domi watermark background vector */
@@ -1056,12 +1082,21 @@
   --translate-y: -4px;
   box-shadow: 0 12px 30px -10px rgba(14, 165, 233, 0.08) !important;
   border-color: var(--brand-primary) !important;
+  --rainbow: repeating-linear-gradient(
+    0deg,
+    #3b82f6 calc(var(--step) * 1),
+    #a5b4fc calc(var(--step) * 2),
+    #93c5fd calc(var(--step) * 3),
+    #ddd6fe calc(var(--step) * 4),
+    #60a5fa calc(var(--step) * 5),
+    #3b82f6 calc(var(--step) * 6)
+  ) 0% var(--bg-y) / 200% 700% no-repeat;
 }
 .refactor-dashboard .agent-card:hover::before {
   opacity: 1;
 }
 
-/* Card Holographic reflection - Subtle Blue/Cyan light sheen */
+/* Card Holographic reflection - Synced with Aurora color palette */
 .refactor-dashboard .agent-card .card-holo {
   position: absolute !important;
   top: 0 !important;
@@ -1074,19 +1109,13 @@
   pointer-events: none !important;
   z-index: 4 !important;
   opacity: var(--holo-opacity, 0) !important;
-  background: radial-gradient(
-    circle farthest-corner at var(--m-x, 50%) var(--m-y, 50%),
-    rgba(14, 165, 233, 0.08) 0%,   /* Cyber cyan */
-    rgba(2, 132, 199, 0.06) 35%,   /* Slate blue */
-    rgba(56, 189, 248, 0.03) 70%,  /* Cyan accent */
-    transparent 100%
-  ) !important;
+  background: var(--rainbow) !important;
   mix-blend-mode: color-dodge !important; /* Light-mode friendly reflection blending */
   transition: opacity 300ms ease !important;
 }
 
 .refactor-dashboard .agent-card:hover .card-holo {
-  --holo-opacity: 1;
+  --holo-opacity: 0.35; /* Subtle and premium opacity for color-dodge */
 }
 
 /* Card Glare overlay style - Soft Light Mode reflection */
